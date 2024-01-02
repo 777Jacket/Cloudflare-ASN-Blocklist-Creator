@@ -1,5 +1,3 @@
-import requests
-
 # Reads the AS Numbers from the text file
 with open('as_numbers.txt', 'r') as file:
     as_numbers = file.read().splitlines()
